@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;700&display=swap");
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/*============================
+Header Section Styles
+============================*/
+header {
+  margin: 50px 0px;
+}
+
+header .navbar form input {
+  width: 500px;
+  height: 48px;
+  border-radius: 66px;
+  color: #ccc;
+}
+
+header .navbar form input[type="search"] {
+  padding-left: 20px;
+}
+
+header .navbar form input[type="search"]:focus {
+  outline: none;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #707070;
+}
